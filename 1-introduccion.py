@@ -27,9 +27,11 @@ print(ganancias_posibles)
 
 # Casting de tipos
 print(int(ganancias_posibles))
-print(round(ganancias_posibles))
 print(str(ganancias_posibles))
 print(float(8))
+
+# Redondea el número
+print(round(ganancias_posibles))
 
 # Complex
 print(2+5j + 1+2j)
