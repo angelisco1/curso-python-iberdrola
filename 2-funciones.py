@@ -27,7 +27,7 @@ def get_ticket_loteria(sorteo, *numeros):
   # for num in args:
   for num in numeros:
     numeros_str.append(str(num))
-    numeros_unidos = ', '.join(numeros_str)
+  numeros_unidos = ', '.join(numeros_str)
   print(f"Sorteo: {sorteo}. Los números elegidos son: {numeros_unidos}")
 
 get_ticket_loteria("Primitiva", 1, 2, 3, 15, 16, 20)
